@@ -17,7 +17,7 @@ import requests
 import time
 from datetime import datetime, timezone
 
-REPO = "davila7/claude-code-templates"
+REPO = "joserafael1990/claude-code-ecosystem"
 API_URL = f"https://api.github.com/repos/{REPO}/pulls"
 OUTPUT_FILE = os.path.join(os.path.dirname(__file__), "..", "docs", "claude-prs", "data.json")
 

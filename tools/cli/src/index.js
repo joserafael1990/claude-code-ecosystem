@@ -528,10 +528,10 @@ async function installIndividualAgent(agentName, targetDir, options) {
     let githubUrl;
     if (agentName.includes('/')) {
       // Category/agent format: deep-research-team/academic-researcher
-      githubUrl = `https://raw.githubusercontent.com/joserafael1990/claude-code-ecosystem/main/cli-tool/components/agents/${agentName}.md`;
+      githubUrl = `https://raw.githubusercontent.com/joserafael1990/claude-code-ecosystem/main/components/agents/${agentName}.md`;
     } else {
       // Direct agent format: api-security-audit
-      githubUrl = `https://raw.githubusercontent.com/joserafael1990/claude-code-ecosystem/main/cli-tool/components/agents/${agentName}.md`;
+      githubUrl = `https://raw.githubusercontent.com/joserafael1990/claude-code-ecosystem/main/components/agents/${agentName}.md`;
     }
 
     let agentContent;
@@ -1618,7 +1618,7 @@ async function getAvailableAgentsFromGitHub() {
 
     // If aitmpl.com API fails, try GitHub API as secondary fallback
     console.log(chalk.yellow('⚠️  Falling back to GitHub API...'));
-    const response = await fetch('https://api.github.com/repos/joserafael1990/claude-code-ecosystem/contents/cli-tool/components/agents');
+    const response = await fetch('https://api.github.com/repos/joserafael1990/claude-code-ecosystem/contents/components/agents');
     if (!response.ok) {
       // Check for rate limit error
       if (response.status === 403) {
@@ -1662,7 +1662,7 @@ async function getAvailableAgentsFromGitHub() {
       } else if (item.type === 'dir') {
         // Category directory, fetch its contents
         try {
-          const categoryResponse = await fetch(`https://api.github.com/repos/joserafael1990/claude-code-ecosystem/contents/cli-tool/components/agents/${item.name}`);
+          const categoryResponse = await fetch(`https://api.github.com/repos/joserafael1990/claude-code-ecosystem/contents/components/agents/${item.name}`);
           if (categoryResponse.ok) {
             const categoryContents = await categoryResponse.json();
             for (const categoryItem of categoryContents) {
@@ -1706,7 +1706,7 @@ async function installIndividualSkill(skillName, targetDir, options) {
     const skillBaseName = skillName.includes('/') ? skillName.split('/').pop() : skillName;
 
     // Use GitHub API to download ALL files and directories for the skill
-    const githubApiUrl = `https://api.github.com/repos/joserafael1990/claude-code-ecosystem/contents/cli-tool/components/skills/${skillName}`;
+    const githubApiUrl = `https://api.github.com/repos/joserafael1990/claude-code-ecosystem/contents/components/skills/${skillName}`;
 
     console.log(chalk.gray(`📥 Downloading skill from GitHub (main branch)...`));
 
@@ -3367,7 +3367,7 @@ async function executeE2BSandbox(options, targetDir) {
         // Fallback to downloading from GitHub if not found locally
         console.log(chalk.gray('📥 Downloading E2B component files from GitHub...'));
 
-        const baseUrl = 'https://raw.githubusercontent.com/joserafael1990/claude-code-ecosystem/main/cli-tool/components/sandbox/e2b';
+        const baseUrl = 'https://raw.githubusercontent.com/joserafael1990/claude-code-ecosystem/main/tools/cli/components/sandbox/e2b';
 
         // Download launcher script
         const launcherResponse = await fetch(`${baseUrl}/e2b-launcher.py`);

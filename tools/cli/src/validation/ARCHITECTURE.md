@@ -220,7 +220,7 @@ jobs:
         "version": "1.0.0",
         "provenance": {
           "author": "Claude Code Ecosystem Contributors",
-          "repository": "https://github.com/ClaudeCodeEcosystem/claude-code-ecosystem",
+          "repository": "https://github.com/joserafael1990/claude-code-ecosystem",
           "commit": "43dd5f9",
           "verifiedAuthor": false
         },
@@ -306,4 +306,4 @@ npm run test:integration -- validation
 
 ## Security Contact
 For security concerns, please open an issue at:
-https://github.com/ClaudeCodeEcosystem/claude-code-ecosystem/security
+https://github.com/joserafael1990/claude-code-ecosystem/security

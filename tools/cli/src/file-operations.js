@@ -9,7 +9,7 @@ const GITHUB_CONFIG = {
   owner: 'joserafael1990',
   repo: 'claude-code-ecosystem',
   branch: 'main',
-  templatesPath: 'cli-tool/templates'
+  templatesPath: 'tools/cli/templates'
 };
 
 // Cache for downloaded files to avoid repeated downloads
