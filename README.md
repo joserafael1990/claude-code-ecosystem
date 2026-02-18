@@ -185,6 +185,35 @@ cp components/commands/testing/generate-tests.md .claude/commands/
 | [build-engineer](components/agents/06-developer-experience/build-engineer.md) | sonnet | Build systems and CI/CD |
 | [cli-developer](components/agents/06-developer-experience/cli-developer.md) | sonnet | CLI tool development |
 
+### 07 — Specialized Domains 🏆
+
+| Agent | Model | Description |
+|-------|-------|-------------|
+| [blockchain-developer](components/agents/07-specialized-domains/blockchain-developer.md) | sonnet | EVM Smart Contracts and DeFi security |
+| [fintech-engineer](components/agents/07-specialized-domains/fintech-engineer.md) | opus | Secure financial systems and payments |
+| [game-developer](components/agents/07-specialized-domains/game-developer.md) | sonnet | Unity/Unreal and multiplayer networking |
+| [m365-admin](components/agents/07-specialized-domains/m365-admin.md) | sonnet | Microsoft 365 and Graph API automation |
+
+### 08 — Business & Product 🏆
+
+| Agent | Model | Description |
+|-------|-------|-------------|
+| [technical-writer](components/agents/08-business-product/technical-writer.md) | haiku | API references and developer education |
+| [wordpress-master](components/agents/08-business-product/wordpress-master.md) | sonnet | Enterprise WordPress and custom plugins |
+
+### 09 — Meta Orchestration 🏆
+
+| Agent | Model | Description |
+|-------|-------|-------------|
+| [agent-installer](components/agents/09-meta-orchestration/agent-installer.md) | haiku | Discovery and management of ecosystem agents |
+| [it-ops-orchestrator](components/agents/09-meta-orchestration/it-ops-orchestrator.md) | sonnet | Complex multi-domain IT task coordination |
+
+### 10 — Research & Analysis 🏆
+
+| Agent | Model | Description |
+|-------|-------|-------------|
+| [research-analyst](components/agents/10-research-analysis/research-analyst.md) | sonnet | Multi-source intelligence gathering and synthesis |
+
 ### 11 — MCP Orchestration 🏆
 - **mcp-server-architect**: Professional transport and tool design.
 - **mcp-security-auditor**: Security, OAuth, and RBAC audits.
