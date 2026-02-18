@@ -150,7 +150,7 @@ Comprehensive guides, examples, and API reference for the Claude Code Ecosystem.
 
 ## 🤝 Contributing
 
-We welcome contributions! Check our [contributing guidelines](https://github.com/ClaudeCodeEcosystem/claude-code-ecosystem/blob/main/CONTRIBUTING.md).
+We welcome contributions! Check our [contributing guidelines](https://github.com/joserafael1990/claude-code-ecosystem/blob/main/CONTRIBUTING.md).
 
 ## 📄 License
 
@@ -158,8 +158,21 @@ MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 🔗 Links
 
-- **🐛 Issues**: [GitHub Issues](https://github.com/ClaudeCodeEcosystem/claude-code-ecosystem/issues)
-- **💬 Discussions**: [GitHub Discussions](https://github.com/ClaudeCodeEcosystem/claude-code-ecosystem/discussions)
+- **🐛 Issues**: [GitHub Issues](https://github.com/joserafael1990/claude-code-ecosystem/issues)
+- **💬 Discussions**: [GitHub Discussions](https://github.com/joserafael1990/claude-code-ecosystem/discussions)
+
+---
+
+## 📜 Acknowledgements & Attribution
+
+This project is part of the **Claude Code Ecosystem**, a curated and enhanced distribution of community components. 
+
+Specifically, this CLI tool and the associated components acknowledge and credit:
+- [claude-code-templates](https://github.com/davila7/claude-code-templates) for the CLI foundation and many base components.
+- [anthropics/skills](https://github.com/anthropics/skills) for several modular skills.
+- The broader Claude Code community for various commands and prompt patterns.
+
+**Original Engineering:** The Analytics Dashboard, Mobile Monitor, and various integration dashboards are original contributions to the ecosystem.
 
 ---
 

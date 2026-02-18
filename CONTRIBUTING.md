@@ -4,6 +4,17 @@ Thank you for contributing! This guide covers how to add, improve, or review com
 
 ---
 
+## 🏛️ Project Philosophy: Curation & Engineering
+
+Claude Code Ecosystem is more than a list of prompts. It is a **curated engineering project** that bridges the gap between community resources and professional developer tooling.
+
+- **Curation as a Service**: We reorganize community-sourced agents (from projects like `claude-code-templates`) into a high-quality, 13-category professional taxonomy.
+- **Original Tooling**: We build original dashboards, analytics systems, and CLI orchestrators that turn these curated agents into a cohesive development platform.
+
+When you contribute, you are contributing to both the **intelligence layer** (agents/commands) and the **tooling layer** (dashboards/CLI).
+
+---
+
 ## Quick Start
 
 ### 1. Fork & Clone

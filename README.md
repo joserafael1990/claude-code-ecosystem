@@ -350,10 +350,18 @@ This project curates and reorganizes components from the following open-source p
 | [claude-code-templates](https://github.com/davila7/claude-code-templates) | Daniel (San) Ávila | MIT | Agents, commands, MCPs, hooks, settings, CLI foundation |
 | [comfy-claude-prompt-library](https://github.com/Comfy-Org/comfy-claude-prompt-library) | Comfy-Org | MIT | Commands and prompt patterns |
 | [awesome-claude-code-subagents](https://github.com/pallid-pantry/awesome-claude-code-subagents) | pallid-pantry | — | Agent references and patterns |
+| [anthropics/skills](https://github.com/anthropics/skills) | Anthropic PBC | Various | Modular skills and knowledge patterns |
 
 Original upstream licenses are preserved in [`licenses/upstream/`](licenses/upstream/).
 
-**My contributions** on top of the curated content include: the unified taxonomy, quality tier system, analytics dashboard, mobile chat monitor, CLI orchestrator, skills/plugin/teams dashboards, year-in-review visualization, and validation pipeline.
+**My original engineering work** (the "Orchestration Layer") includes: 
+- Building the **Analytics Dashboard** (WebSocket/React observability app)
+- Designing the **Mobile Chat Monitor** and **Progressive Dashboards** (Skills/Plugins/Teams)
+- Developing the **Node.js CLI Orchestrator** and **Validation Pipeline**
+- Engineering the **Animated 2025 Year-in-Review** visualization
+- Curating the **13-category Unified Taxonomy** and **Standardized Frontmatter**
+
+This project acts as a bridge: taking thousands of community-sourced instructions and wrapping them in a professional, automated toolchain for developers.
 
 ## 📄 License
 

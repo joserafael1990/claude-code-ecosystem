@@ -38,7 +38,7 @@ The installer will:
 Copy the template manually for more control:
 
 ```bash
-git clone https://github.com/ClaudeCodeEcosystem/claude-code-ecosystem.git
+git clone https://github.com/joserafael1990/claude-code-ecosystem.git
 # Copy the JavaScript/TypeScript template
 cp claude-code-ecosystem/javascript-typescript/CLAUDE.md your-project/
 
